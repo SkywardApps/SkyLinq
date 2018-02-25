@@ -6,13 +6,13 @@
 //  Copyright © 2018 Skyward App Company, LLC. All rights reserved.
 //
 
-#import "NSArray+Linq.h"
+#import "NSArray+SkyLinq.h"
 
-@implementation NSArray (Linq)
+@implementation NSArray (SkyLinq)
 
-- (Linq *)query
+- (SkyLinq *)query
 {
-    return [Linq from:self];
+    return [SkyLinq from:self];
 }
 
 @end

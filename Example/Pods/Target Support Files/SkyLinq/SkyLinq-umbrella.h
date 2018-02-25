@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "NSArray+SkyLinq.h"
+#import "SkyLinq.h"
 
 FOUNDATION_EXPORT double SkyLinqVersionNumber;
 FOUNDATION_EXPORT const unsigned char SkyLinqVersionString[];

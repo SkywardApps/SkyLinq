@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SkyLinq'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A minimal implementation of Language-Integrated Query (LINQ) for objective-c.'
 
 # This description is used to generate tags and improve search results.
@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/undiwahn/SkyLinq'
+  s.homepage         = 'https://github.com/SkywardApps/SkyLinq'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'undiwahn' => 'nelliott@skywardapps.com' }
-  s.source           = { :git => 'https://github.com/undiwahn/SkyLinq.git', :tag => s.version.to_s }
+  s.author           = { 'Skyward App Company, LLC' => 'nelliott@skywardapps.com' }
+  s.source           = { :git => 'https://github.com/SkywardApps/SkyLinq', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
 
   s.source_files = 'SkyLinq/Classes/**/*'
   

@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## SkyLinq
 
-Copyright (c) 2018 undiwahn <nelliott@skywardapps.com>
+Copyright (c) 2018 Skyward App Company, LLC <nelliott@skywardapps.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

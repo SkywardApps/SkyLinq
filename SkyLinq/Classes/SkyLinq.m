@@ -6,21 +6,24 @@
 //  Copyright © 2018 Skyward App Company, LLC. All rights reserved.
 //
 
-#import "Linq.h"
-#import "NSArray+Linq.h"
+#import "SkyLinq.h"
+#import "NSArray+SkyLinq.h"
 
-@interface Linq ()
+@interface SkyLinq ()
 {
     NSObject<NSFastEnumeration>* source;
 }
 
 @end
 
-@implementation Linq
+@implementation SkyLinq
 
-+(Linq*)from:(NSObject<NSFastEnumeration>*)source
++(SkyLinq*)from:(NSObject<NSFastEnumeration>*)source
 {
-    return [[Linq alloc] initWithSource: source];
+    if(source == nil)
+        return nil;
+    
+    return [[SkyLinq alloc] initWithSource: source];
 }
 
 - (instancetype) initWithSource:(NSObject<NSFastEnumeration>*)source
@@ -50,14 +53,14 @@
     return result;
 }
 
-- (filterMethod)where {
-    return ^(filter f)
+- (whereMethod)where {
+    return ^(where f)
     {
         return [self where:f].query;
     };
 }
 
-- (NSArray *)where:(filter)f
+- (NSArray *)where:(where)f
 {
     NSArray* result = @[];
     for(id item in source)

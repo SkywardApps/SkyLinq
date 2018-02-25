@@ -1,5 +1,5 @@
 PODS:
-  - SkyLinq (0.1.0)
+  - SkyLinq (0.1.1)
 
 DEPENDENCIES:
   - SkyLinq (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SkyLinq: 3d9ddf6af3ae14346f1264a7af9e2c12e28676b9
+  SkyLinq: 30921d15e3a59ad906f9e0a796b4a9afbdaa9118
 
 PODFILE CHECKSUM: b9d78ef16f132be9acc72c2b668a1547396a6afb
 

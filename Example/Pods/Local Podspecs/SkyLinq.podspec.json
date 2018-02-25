@@ -1,22 +1,22 @@
 {
   "name": "SkyLinq",
-  "version": "0.1.0",
-  "summary": "A short description of SkyLinq.",
+  "version": "0.1.1",
+  "summary": "A minimal implementation of Language-Integrated Query (LINQ) for objective-c.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/undiwahn/SkyLinq",
+  "homepage": "https://github.com/SkywardApps/SkyLinq",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "undiwahn": "nelliott@skywardapps.com"
+    "Skyward App Company, LLC": "nelliott@skywardapps.com"
   },
   "source": {
-    "git": "https://github.com/undiwahn/SkyLinq.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/SkywardApps/SkyLinq",
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.3"
   },
   "source_files": "SkyLinq/Classes/**/*"
 }
