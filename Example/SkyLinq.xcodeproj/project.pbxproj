@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1686FA296D7C65280BF2765A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1686FA296D7C65280BF2765A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		19486F1EEAD43135DAE84B7F /* Pods-SkyLinq_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyLinq_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyLinq_Tests/Pods-SkyLinq_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4D31A56D6C571F5D8FAF932C /* Pods_SkyLinq_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyLinq_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SkyLinq_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyLinq_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,9 +64,9 @@
 		893778A2217D930C4A892EF8 /* Pods-SkyLinq_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyLinq_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyLinq_Example/Pods-SkyLinq_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8C74D1F1BB8D7608160BEB60 /* Pods-SkyLinq_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyLinq_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyLinq_Example/Pods-SkyLinq_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9F24B94E991095FE063E91B5 /* Pods_SkyLinq_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyLinq_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD3B6CE0A76D79B98690981A /* SkyLinq.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SkyLinq.podspec; path = ../SkyLinq.podspec; sourceTree = "<group>"; };
+		BD3B6CE0A76D79B98690981A /* SkyLinq.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SkyLinq.podspec; path = ../SkyLinq.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E09401D9EEDE7B546A5D1199 /* Pods-SkyLinq_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyLinq_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyLinq_Tests/Pods-SkyLinq_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E9979D23D93A89541C1D387A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E9979D23D93A89541C1D387A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

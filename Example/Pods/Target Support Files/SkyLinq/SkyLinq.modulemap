@@ -1,0 +1,6 @@
+framework module SkyLinq {
+  umbrella header "SkyLinq-umbrella.h"
+
+  export *
+  module * { export * }
+}

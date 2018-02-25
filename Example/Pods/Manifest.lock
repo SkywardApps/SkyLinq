@@ -1,0 +1,16 @@
+PODS:
+  - SkyLinq (0.1.0)
+
+DEPENDENCIES:
+  - SkyLinq (from `../`)
+
+EXTERNAL SOURCES:
+  SkyLinq:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SkyLinq: 3d9ddf6af3ae14346f1264a7af9e2c12e28676b9
+
+PODFILE CHECKSUM: b9d78ef16f132be9acc72c2b668a1547396a6afb
+
+COCOAPODS: 1.4.0
