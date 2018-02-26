@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This is a basic implementation of some of the common Language-Integrated Query (LINQ) methods in objective-c.  It provides a wrapper class that exposes the ability to chain queries and transformations.  
                        DESC
 
   s.homepage         = 'https://github.com/SkywardApps/SkyLinq'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Skyward App Company, LLC' => 'nelliott@skywardapps.com' }
-  s.source           = { :git => 'https://github.com/SkywardApps/SkyLinq', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/SkywardApps/SkyLinq.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.3'
